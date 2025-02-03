@@ -1,0 +1,18 @@
+mission "Add Glaive"
+	landing
+	invisible
+	source
+		government "Free Worlds" "Independent" "Republic" "Syndicate"
+	to offer
+		has "wanderers sestor done"
+	on offer
+		event "Add da Glaive"
+		conversation
+			`A news flash comes through. Apparently the Navy just finished a new ship. Described as a "Heavy Scout", the hot-off-the-presses Glaive is quoted as a response to recent alien incursions within Republic space.`
+			`Unfortunately, it seems you'll need a Navy license to acquire this ship.`
+
+event "Add da Glaive"
+	shipyard "Navy Advanced"
+		add "Glaive"
+	outfitter "Lovelace Advanced"
+		add "Obliterator Turret"

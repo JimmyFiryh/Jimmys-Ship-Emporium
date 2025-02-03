@@ -1,0 +1,57 @@
+outfit "Obliterator Turret"
+	category "Turrets"
+	cost 1500000
+	thumbnail "outfit/obliterator"
+	"mass" 300
+	"outfit space" -170
+	"weapon capacity" -170
+	"turret mounts" -1
+	"barbette mount" -1
+	"required crew" 7
+	weapon
+		"hardpoint sprite" "hardpoint/obliterator"
+		sound "obliteratorfire"
+		"reload" 300
+		"turret turn" 0.4
+		"velocity override" 17
+		"firing energy" 250
+		"firing heat" 1800
+		"firing force" 600
+		"submunition" "Obliterator Submunition"
+			"offset" 0 -59
+		"submunition" "Obliterator Submunition"
+			"offset" -7.5 -59
+		"submunition" "Obliterator Submunition"
+			"offset" 7.5 -59
+	description `After the war against the Pug, the Republic Navy immediately began a design contest for its next generation of frontline weaponry in case of future alien incursion. Several factors shaped each design direction for the competing designs. Whilst former teams preferred effective, balanced weaponry to combat shields and hull equally, one design team in particular put all their eggs into one basket; hull damage.`
+	description `Though this concept lost in the initial design bid, the Kor Sestor invasion brought the design back to the forefront. Lacking a name, several members of the Senate asked "What does this thing even do?"`
+	description `The Obliterator Turret is a massive, unwieldy turret designed with one main goal; to blow stuff up. And act like it don't know nobody.`
+
+outfit "Obliterator Submunition"
+	weapon
+		sprite "projectile/obliterator"
+		"fire effect" "obliterator fire"
+		"hit effect" "obliterator hit"
+		"velocity" 17
+		"lifetime" 100
+		"shield damage" 720
+		"hull damage" 5420
+		"hit force" 300
+
+effect "obliterator fire"
+	sprite "effect/obliteratorfire"
+		"frame rate" 15
+		"no repeat"
+		"lifetime" 60
+
+effect "obliterator hit"
+	sprite "effect/explosion/medium"
+		"frame rate" 15
+		"no repeat"
+	sound "explosion huge"
+	"lifetime" 36
+	"random angle" 360
+	"random frame rate" 5
+	"random velocity" 1
+	"random spin" 5
+	"velocity scale" 0.4

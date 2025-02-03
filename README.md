@@ -1,10 +1,12 @@
-# plugin-template
-This repository serves as a basic template to be used when creating a plugin for the game Endless Sky. Fork it and start modding!
+Welcome to Jimmy's Ship Emporium! So far, I have one ship, the Glaive. 
 
-[Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)
+![The Glaive](https://cdn.discordapp.com/attachments/366978046974230561/1335849070660423731/icon2x.png?ex=67a1a9e5&is=67a05865&hm=b55334193f68b16bc69a2977af8c8bc3c8815fa7fe865bf28dba8ea72f5560fe&)
 
+To quote it's description:
+"The Glaive is the Navy's response to the Kor Sestor incursion. Post-Pug War, the Navy had drafted several designs for a next generation warship capable of dealing with future alien invasions. Though it lost the initial bid, the need for overwhelming firepower against toughened hulls of alien ships was brought to the forefront after this incursion.
+Though severely lacking in damage against shields, the Glaive packs an enormous punch against strengthened hulls. Designed to work in independent units and without significant escort, Glaives come with plenty of capability to defend themselves against a multitude of attacks. A pair of fast moving screening turrets, an anti-missile turret, and a pair of internally stored fighters mean the Glaive is ready for whatever is thrown its way.
+Unfortunately, all this comes at a cost - quite literally. Also, for its size the Glaive itself severely lacks in its own hull strength, not being able to improve on existing Navy designs.
+Regardless of these flaws, you'd still much rather stay away from the receiving end of an Obliterator Turret."
 
-## Things to do after forking:
-1. Clone your repo locally. You'll want to clone / symlink your repo within the `"plugins"` directory in your "user" directory (which is where Endless Sky writes your pilot savegames). This ensures you can update your local version of Endless Sky without worrying about losing any uncommitted & unpushed data.
-2. Flesh out your content! You can learn about all the different bits of game data in the [Endless Sky wiki](https://github.com/endless-sky/endless-sky/wiki/CreatingPlugins).
-3. [Submit your plugin for distribution](https://github.com/endless-sky/endless-sky/wiki/PluginRepository).
+My short term goal is to get the Glaive into the Navy's hands properly by making some fleets including them. 
+Eventually, I'd like to make more ships. We'll see when that happens.

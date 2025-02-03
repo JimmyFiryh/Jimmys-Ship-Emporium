@@ -1,0 +1,71 @@
+﻿ship "Glaive"
+	sprite "ship/glaive"
+	thumbnail "thumbnail/glaivethumb"
+	attributes
+		category "Heavy Warship"
+		licenses
+			Navy
+		"cost" 55000000
+		"shields" 21000
+		"hull" 7500
+		"required crew" 76
+		"bunks" 122
+		"mass" 2100
+		"drag" 12.2
+		"heat dissipation" .34
+		"fuel capacity" 800
+		"cargo space" 50
+		"outfit space" 708
+		"weapon capacity" 325
+		"engine capacity" 142
+		"barbette mount" 1
+		weapon
+			"blast radius" 250
+			"shield damage" 2700
+			"hull damage" 1500
+			"hit force" 3500
+	outfits
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Catalytic Ramscoop"
+		"D67-TM Shield Generator"
+		"Electron Turret" 2
+		"Fragmentation Grenades" 30
+		"Fusion Reactor"
+		"Heavy Anti-Missile Turret"
+		Hyperdrive
+		"LP072a Battery Pack"
+		"Large Radar Jammer"
+		"Laser Rifle" 30
+		"Liquid Nitrogen Cooler"
+		"Obliterator Turret"
+		"Outfit Scanner" 2
+		"Security Station" 3
+		"Tactical Scanner"
+	turret 0 -62 "Obliterator Turret"
+		over
+	turret -27 41.5 "Electron Turret"
+		over
+	turret 27 41.5 "Electron Turret"
+		over
+	turret 0 52.5 "Heavy Anti-Missile Turret"
+		over
+	engine -35 121
+		under
+	engine 35 121
+		under
+	bay "Fighter" -47 -7
+		left
+		"launch effect" "human internal"
+	bay "Fighter" 47 -7
+		right
+		"launch effect" "human internal"
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description `The Glaive is the Navy's response to the Kor Sestor incursion. Post-Pug War, the Navy had drafted several designs for a next generation warship capable of dealing with future alien invasions. Though it lost the initial bid, the need for overwhelming firepower against toughened hulls of alien ships was brought to the forefront after this incursion.`
+	description `Though severely lacking in damage against shields, the Glaive packs an enormous punch against strengthened hulls. Designed to work in independent units and without significant escort, Glaives come with plenty of capability to defend themselves against a multitude of attacks. A pair of fast moving screening turrets, an anti-missile turret, and a pair of internally stored fighters mean the Glaive is ready for whatever is thrown its way.`
+	description `Unfortunately, all this comes at a cost - quite literally. Also, for its size the Glaive itself severely lacks in its own hull strength, not being able to improve on existing Navy designs.`
+	description `Regardless of these flaws, you'd still much rather stay away from the receiving end of an Obliterator Turret.`

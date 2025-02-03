@@ -1,13 +1,13 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: {{your plugin name here}}
-Upstream-Contact: {{your name here}} <{{your email here}}>
-Source: {{your plugin github url here}}
+Upstream-Name: Jimmys-Ship-Emporium
+Upstream-Contact: JimmyFiryh - @firyh [Discord]
+Source: https://github.com/JimmyFiryh/Jimmys-Ship-Emporium
 
 Files: *
-Copyright: {{your name and email again}}
+Copyright: JimmyFiryh
 
-Files:
- icon*.png
+Files: obliteratorfire.png
+Copyright: DS_Store (Free Library Royalty Free)
+
+Files: Explosion.png
 Copyright: Michael Zahniser <mzahniser@gmail.com>
-License: CC-BY-SA-4.0
-Comment: Update this when you create your plugin's icon!
